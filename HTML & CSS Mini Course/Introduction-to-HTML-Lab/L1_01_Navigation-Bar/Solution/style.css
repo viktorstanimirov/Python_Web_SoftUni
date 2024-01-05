@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin:  0;
@@ -24,31 +24,3 @@ nav ul li a {
     text-decoration: none;
     color: white;
     border-radius: 5px;
-=======
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin:  0;
-}
-
-nav {
-    background: #234467;
-} 
-
-nav ul {
-    text-align:  center;
-    margin: 0;
-    padding:  10;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
->>>>>>> f01aaeb0dac1c2af1aff8ba294ff2cb6d807b32f
-}
