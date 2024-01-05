@@ -17,5 +17,4 @@ Submit your solutions in the [SoftUni Judge System](https://judge.softuni.bg/Con
 * Use **footer** tag for the last element in the **HTML** document
 
 ## Hints
-## Hints
 * You can reuse some of your previous solutions
