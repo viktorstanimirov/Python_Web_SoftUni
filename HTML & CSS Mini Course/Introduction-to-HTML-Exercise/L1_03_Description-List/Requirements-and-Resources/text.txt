@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Description List
 Languages
 HTML
@@ -5,4 +6,13 @@ Is a markup language
 Java
 Is a programming language and platform
 JavaScript
+=======
+Description List
+Languages
+HTML
+Is a markup language
+Java
+Is a programming language and platform
+JavaScript
+>>>>>>> 83c5cb13df86fb557726854dba37555512efb3d9
 Is a scripting language

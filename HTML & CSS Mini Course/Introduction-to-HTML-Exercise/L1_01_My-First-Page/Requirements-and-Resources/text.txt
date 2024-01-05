@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 My First Page
 My super website
 Hello and welcome to my website!
+=======
+My First Page
+My super website
+Hello and welcome to my website!
+>>>>>>> 83c5cb13df86fb557726854dba37555512efb3d9
 My website is still a bit empty. But wait a while yet!

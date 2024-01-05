@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 Navigation Bar
 Home
 Services
 Products
 About
+=======
+Navigation Bar
+Home
+Services
+Products
+About
+>>>>>>> 83c5cb13df86fb557726854dba37555512efb3d9
 Contacts
