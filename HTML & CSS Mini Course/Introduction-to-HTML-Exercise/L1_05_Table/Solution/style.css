@@ -1,0 +1,18 @@
+tr {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 100px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    text-align: right;
+    border: 1px solid black;
+
+}
+body {
+    font-family: sans-serif;
+}
