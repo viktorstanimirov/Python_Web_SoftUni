@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #F0F1F5;
     margin: 0;
@@ -27,4 +28,35 @@ nav ul li {
 nav ul li a {
     color: orange;
     text-decoration: none;
+=======
+body {
+    background: #F0F1F5;
+    margin: 0;
+    padding: 2rem 12rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+header>p {
+    float: left;
+    color: orange;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 8px;
+
+}
+
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+>>>>>>> cac883c5b7f4abb94e0303fff547451cf6abd99b
 }

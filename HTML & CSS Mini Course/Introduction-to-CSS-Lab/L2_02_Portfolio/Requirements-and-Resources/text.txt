@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Portfolio
 
 HOME
@@ -12,4 +13,20 @@ soccer fan
 father ot two
 &copy Rossi, 2015. All rights reserved
 SAVVY. CREATIVE. DETERMINED.
+=======
+Portfolio
+
+HOME
+BLOG
+SERVICES
+CONTACT
+
+PAUL ROSSI
+web developer
+photographer
+soccer fan
+father ot two
+&copy Rossi, 2015. All rights reserved
+SAVVY. CREATIVE. DETERMINED.
+>>>>>>> cac883c5b7f4abb94e0303fff547451cf6abd99b
 While I specialize in front-end development and WordPress, I now also do a lot of work in mobile web and responsive development.

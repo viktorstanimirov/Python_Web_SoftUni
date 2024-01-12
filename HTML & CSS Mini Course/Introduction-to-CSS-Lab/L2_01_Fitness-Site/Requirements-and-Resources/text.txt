@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Fitness Site
 HERCULES
 HOME
@@ -14,4 +15,22 @@ OUR TRAINERS
 On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.
 MEMBERSHIPS
 On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.
+=======
+Fitness Site
+HERCULES
+HOME
+CLASSES
+TRANERS
+TIMETABLE
+BLOG
+CONTACT
+DISCOVER THE HIDDEN <span>ALTER EGO OF YOUR BODY
+READ MORE
+OUR CLASSES
+On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.
+OUR TRAINERS
+On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.
+MEMBERSHIPS
+On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.
+>>>>>>> cac883c5b7f4abb94e0303fff547451cf6abd99b
 &copy; Copyright OldWorld by Anonymous.Photos by Anonymous.
