@@ -1,14 +1,14 @@
-<<<<<<< HEAD
 body {
     background: #F0F1F5;
     margin: 0;
     padding: 2rem 12rem;
     font-family: "Helvetica", sans-serif;
+    
 }
 
-header>p {
+header > p {
     float: left;
-    color: orange;
+    color: #F9690E;
 }
 
 nav {
@@ -21,42 +21,69 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding: 0px 8px;
+    padding: 1px 8px;
 
 }
 
-nav ul li a {
-    color: orange;
-    text-decoration: none;
-=======
-body {
-    background: #F0F1F5;
-    margin: 0;
-    padding: 2rem 12rem;
-    font-family: "Helvetica", sans-serif;
-}
-
-header>p {
-    float: left;
-    color: orange;
-}
-
-nav {
-    text-align: right;
-}
-
-nav ul {
-    float: right;
-}
-
-nav ul li {
+nav ul li li {
     display: inline-block;
-    padding: 0px 8px;
-
 }
 
 nav ul li a {
-    color: orange;
+    color: #F9690E;
     text-decoration: none;
->>>>>>> cac883c5b7f4abb94e0303fff547451cf6abd99b
+}
+
+main section:nth-child(1) {
+    margin-top: 3rem;
+    background-image: url("../Solution/picture.jpg");
+    background-size: cover;
+    background-position:center;
+    padding: 11rem 15rem;
+    padding-bottom: 27rem;
+}
+
+main section:nth-child(1) h1 {
+    color: white;
+    text-align: center;
+}
+
+main section:nth-child(1) span {
+    color: #F9690E;
+}
+
+main section:nth-child(1) button {
+    background: #F9690E;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 28rem;
+}
+main section:nth-child(1) button:hover {
+    background-color: white;
+    color: #F9690E;
+}
+
+main section:nth-child(2) article{
+    background-color: #F9690E;
+    color: white;
+    width: 33%;
+    display: inline-block;
+    padding: 1px;
+}
+
+main section:nth-child(2) article h3{
+    text-align: center;
+}
+
+footer article {
+    width: 49%;
+    display: inline-block;
+}
+
+footer article:nth-child(2) {
+    text-align: right;
 }
