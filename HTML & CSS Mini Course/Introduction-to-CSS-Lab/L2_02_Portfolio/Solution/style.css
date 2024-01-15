@@ -1,27 +1,45 @@
 body {
     font-family: "Helvetica", sans-serif;
-    text-decoration: none;
-    
-}
-header > p {
-    float: left;
-    color: #F9690E;
+    font-size: 16px;
+    width: 1180px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 nav {
-    text-align: right;
-    text-decoration: none;
+    background: #f0f1f5;
 }
 
 nav ul {
-    float: right;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 1px 8px;
+    width: 180px;
+    margin: 10px 0;
+    padding: 15px 0;
+    border-right: 3px solid white;
 }
 
-nav ul li li {
-    display: inline-block;
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #00d3d4;
+}
+
+nav ul li i {
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #00d3d4;
+}
+
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
