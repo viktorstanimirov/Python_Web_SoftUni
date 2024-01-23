@@ -1,0 +1,35 @@
+header {
+    font-family: 'open sans' sans-serif;
+}
+
+p {
+    color:  #656565;
+}
+
+article {
+    display: inline-block;
+    margin-top: 9rem;
+}
+
+header article:nth-child(1) {
+    float: left;
+    margin-left: 20rem;
+    border-left: solid;
+    padding-left: 2rem;
+}
+
+header article:nth-child(2) {
+    float: right;
+    margin-right: 31rem;
+    border-left: solid;
+    padding-left: 2rem;
+}
+
+body article:nth-child(2) p {
+    text-align: left;
+}
+
+body article:nth-child(3) p {
+    text-align: left;
+
+}
