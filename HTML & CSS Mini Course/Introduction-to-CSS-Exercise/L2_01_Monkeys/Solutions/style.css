@@ -1,28 +1,86 @@
 body {
     background-color: #FAEBC8;
+    font-family: 'open sans' sans-serif;
+}
+
+section {
+    padding: 10rem;
+
 }
 
 div {
-    margin: 15rem;
+    width: 90rem;
+    height: 40rem;
+    margin: 10px;
+    margin-left: 0rem;
+    padding: 1rem;
+    border: 5px solid black;
+    background-color: white;
+
+}
 
 img {
-    width: 170px;
+    width: 200px;
     display: inline-block;
 }
 
-article:nth-child(1){
-    width: 12rem;
-    padding-left: 10rem;
+p {
+    font-size: 21px;
+}
+
+article:nth-child(1) {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+article:nth-child(1) img {
+    margin-left: 1rem;
+}
+
+article:nth-child(1) h2 {
+    margin-left: 43px;
+}
+
+article:nth-child(1) p {
+    display: inline-block;
+    margin-left: 1px;
+    padding-right: 59rem;
+    margin-top: 5px;
+}
+
+
+article:nth-child(2) {
+    margin-left: 39rem;
+    margin-top: -39rem;
 
 }
 
-article:nth-child(2){
-    width: 11rem;
-    padding-left: 37rem;
-    padding-top: 3rem;
+article:nth-child(2) img {
+    margin-top: 25px;
 }
 
-article:nth-child(3){
-    width: 11rem;
-    padding-left: 67rem;
+article:nth-child(2) h2 {
+    margin-left: 15px;
+}
+
+
+article:nth-child(2) p {
+    padding-right: 32rem;
+    padding-top: -2pxpx;
+    display: inline-block;
+
+}
+
+article:nth-child(3) {
+    margin-left: 63rem;
+    margin-top: -532px;
+}
+
+article:nth-child(3) img {
+    margin-top: 3px;
+}
+
+article:nth-child(3) p {
+    padding-right: 13rem;
+
 }
