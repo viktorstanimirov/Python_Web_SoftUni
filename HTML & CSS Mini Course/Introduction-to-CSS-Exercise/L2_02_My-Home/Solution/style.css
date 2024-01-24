@@ -6,7 +6,7 @@ header {
 article {
     display: inline-block;
     margin-top: 3rem;
-    
+
 }
 
 #article1 {
@@ -17,7 +17,7 @@ article {
 }
 
 #article1 p {
-    color:  #656565
+    color: #656565
 }
 
 #article2 {
@@ -28,27 +28,27 @@ article {
 }
 
 #article2 p {
-    color:  #656565
+    color: #656565
 }
 
-#article3  {
+#article3 {
     margin-left: 21rem;
     margin-right: 81rem;
-    margin-top: 2rem;
-    color:  #656565
+    margin-top: 4rem;
+    color: #656565
 }
 
 
-#article4  {
+#article4 {
     margin-left: 45rem;
     margin-top: -28rem;
     margin-right: 59rem;
-    color:  #656565
+    color: #656565
 }
 
 #picture {
     display: inline-block;
-    margin-left: 66rem;
+    margin-left: 64rem;
     margin-top: -18rem;
     max-width: 250px;
     max-height: 1450px;
@@ -56,5 +56,6 @@ article {
 
 #picture img {
     max-width: 400px;
-    max-height: 200px;;
+    max-height: 200px;
+    margin-bottom: 43px;
 }
