@@ -1,0 +1,29 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    display: inline-block;
+}
+
+img {
+    height: 720px;
+    width: 460px;
+    background-image: linear-gradient(to right top, #293b57, #274460, #254c68, #22556f, #1f5e76);
+
+}
+
+#left_section {
+
+    position: relative;
+}
+
+#left_h1 {
+
+    color: white;
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 12rem;
+}
+
+
