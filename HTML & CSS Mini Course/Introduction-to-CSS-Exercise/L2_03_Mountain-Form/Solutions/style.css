@@ -42,14 +42,21 @@ body {
 }
 
 #left_h1 {
-    margin-top: 31rem;
+    margin-top: -1rem;
+    font-size: 40px;
 }
 
-#left-p {
-    margin-bottom: 30rem;
+p {
+    margin-top: 37rem;
 }
 
-#right-section {
-    width: 475px;
-    height: 713px;
+#right_section {
+    display: inline-block;
+    float: right;
+    width: 475.75px;
+    height: 717px;
+    margin-right: 958px;
+    margin-top: -723px;
+    border-radius: 0px 30px 30px 0px;
+    border: 3px solid #111111;
 }
