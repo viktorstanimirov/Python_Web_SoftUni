@@ -6,6 +6,7 @@
     <title>Mountain Form</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
 <body>
@@ -15,13 +16,30 @@
             <div class="overlay-content">
                 <h1 id="left_h1">Sign up</h1>
                 <p>Privacy policy & terms of service</p>
+                <i class=" fa fa-snowflake"></i>
             </div>
         </div>
     </section>
     <section id="right_section">
-        <div id="sign_in">
-            <label for="username">USERNAME</label>
-            <input type="text" name="Username">
+        <div class="txt_field">
+            <input type="text" name="name" required>
+            <span></span>
+            <label>USERNAME</label>
+        </div>
+        <div class="txt_field">
+            <input type="email" name="email" required>
+            <span></span>
+            <label>E-MAIL</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" name="password" required>
+            <span></span>
+            <label>PASSWORD</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" name="cpassword" required>
+            <span></span>
+            <label>REPEAT PASSWORD</label>
         </div>
     </section>
 </body>
