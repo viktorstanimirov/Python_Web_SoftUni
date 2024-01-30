@@ -97,9 +97,10 @@ label {
     padding: 12px;
     margin-top: 190px;
     margin-right: 280px;
-    background: #ddd;
+    background: #38082A;
     font-size: 17px;
-    border: none;
+    color: white;
+    border: #38082A;
     cursor: pointer;
   }
 
