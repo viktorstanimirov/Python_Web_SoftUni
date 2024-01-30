@@ -71,10 +71,38 @@ p {
 
 input {
     text-align: left;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 label {
     margin-bottom: 5px;
     color: rgb(218, 217, 220);
 }
+
+/* #btn {
+    margin-top: 178px;
+    margin-left: 92px;
+    bs-btn-bg:  #38082A;
+    bs-btn-border-color: #38082A; 
+} */
+
+#sign_in  {
+    margin-left: 202px;
+    margin-top: -33px;
+    font-size: 20px;
+}
+
+#get_started {
+    float: right;
+    padding: 12px;
+    margin-top: 190px;
+    margin-right: 280px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+button:hover {
+    background: #ccc;
+  }
