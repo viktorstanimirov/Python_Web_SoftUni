@@ -60,3 +60,21 @@ p {
     border-radius: 0px 30px 30px 0px;
     border: 3px solid #111111;
 }
+
+.txt_field{
+    position: relative;
+    margin: 30px 0px -115px 87px;
+    max-width: 310px;
+    border-bottom: 2px solid;
+    margin-top: 160px;
+}
+
+input {
+    text-align: left;
+    font-size: 21px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: rgb(218, 217, 220);
+}
