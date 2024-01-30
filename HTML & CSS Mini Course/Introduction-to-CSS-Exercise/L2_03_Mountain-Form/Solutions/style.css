@@ -79,12 +79,6 @@ label {
     color: rgb(218, 217, 220);
 }
 
-/* #btn {
-    margin-top: 178px;
-    margin-left: 92px;
-    bs-btn-bg:  #38082A;
-    bs-btn-border-color: #38082A; 
-} */
 
 #sign_in  {
     margin-left: 202px;
@@ -104,6 +98,3 @@ label {
     cursor: pointer;
   }
 
-button:hover {
-    background: #ccc;
-  }
