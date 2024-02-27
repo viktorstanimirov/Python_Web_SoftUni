@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'world_of_speed_app.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "world_of_speed_db",
-        "USER": "postgres",
-        "PASSWORD": "Nokiapower1",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
         "HOST": "127.0.0.1",
-        "PORT": "5433",
+        "PORT": "",
     }
 }
 
