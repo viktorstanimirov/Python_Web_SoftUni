@@ -3,8 +3,6 @@
 {% load static %}
 
 {% block main_content %}
-    <!-- Main Content -->
-    <!--Home Page-->
     <div class="container-inline">
         <section id="welcomePage">
             <div id="welcome-message">
@@ -16,33 +14,14 @@
             </div>
         </section>
 
-        <!-- Registration -->
         <section id="registerPage">
-            <form>
+            <form action="{% url "create_profile" %}" method="post">
                 <fieldset>
                     <legend>Profile</legend>
-                    <!-- Form for Registration -->
-                    <label for="username">Username:</label>
-                    <input
-                            id="username"
-                            name="username"
-                            type="text"
-                            placeholder="Username"
-                    />
+                    {{ form }}
 
-                    <label for="email">Email:</label>
-                    <input id="email" name="email" type="email" placeholder="Email"/>
-
-                    <label for="age">Age:</label>
-                    <input
-                            id="age"
-                            name="age"
-                            type="number"
-                            min="0"
-                            placeholder="Age"
-                    />
-                    <!-- Button to Create Profile -->
                     <button type="submit" class="register">Enter</button>
+                    {% csrf_token %}
                 </fieldset>
             </form>
         </section>
