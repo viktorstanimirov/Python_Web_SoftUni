@@ -3,10 +3,7 @@
 {% load static %}
 
 {% block main_content %}
-    <!-- End Navigation Bar -->
 
-    <!-- Main Content -->
-    <!-- Catalog with Albums-->
     <section id="catalogPage">
         {% if not albums %}
             <p>No Albums in Catalog!</p>
@@ -25,7 +22,7 @@
                         <p class="price">Price: {{ album.price }}</p>
                     </div>
                     <div class="btn-group">
-                        <a href="#">Details</a>
+                        <a href="{% url "album_details" pk=album.pk %}">Details</a>
                     </div>
                 </div>
             </div>
