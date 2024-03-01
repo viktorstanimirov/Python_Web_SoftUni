@@ -72,11 +72,11 @@ WSGI_APPLICATION = 'my_music_app.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "my_music_app_db",
-        "USER": "postgres",
-        "PASSWORD": "Nokiapower1",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
         "HOST": "127.0.0.1",
-        "PORT": "5433",
+        "PORT": "",
     }
 }
 
