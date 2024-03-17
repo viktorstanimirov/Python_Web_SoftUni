@@ -12,6 +12,8 @@ class Profile(models.Model):
 
     username = models.CharField(
         max_length=USERNAME_MAX_LENGTH,
+        blank=False,
+        null=False,
         validators=[
             MinLengthValidator(
                 USERNAME_MIN_LENGTH

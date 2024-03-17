@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+from MyPlant_App.profiles.views import get_profile
+
+
+def index(request):
+    profile = get_profile()
+    return render(request, "common/index.html")
