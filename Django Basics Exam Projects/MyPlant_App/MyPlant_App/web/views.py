@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.views import generic as view
 
 from MyPlant_App.plants.models import Plant
 from MyPlant_App.profiles.views import get_profile

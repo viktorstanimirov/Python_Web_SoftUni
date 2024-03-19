@@ -1,16 +1,12 @@
 {% extends "base.html" %}
 
 {% block main_content %}
-    <!-- create plant form -->
     <section id="create-page" class="auth">
-        <form action="{% url "create plant" %}" method="post" >
+        <form action="{% url "create plant" %}" method="post">
             <div class="container">
                 {{ form.as_p }}
                 {% csrf_token %}
-                
-
                 <input class="btn" type="submit" value="Create Plant">
-
             </div>
         </form>
     </section>
