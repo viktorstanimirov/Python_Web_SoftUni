@@ -1,6 +1,5 @@
 from django.urls import reverse_lazy
 from django.views import generic as view
-
 from MyPlant_App.profiles.forms import CreateProfileForm
 from MyPlant_App.profiles.models import Profile
 
