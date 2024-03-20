@@ -2,7 +2,6 @@
 
 {% block main_content %}
     
-    
     <section id="plant-details">
         <h1>Plant Details</h1>
         <div class="info-section">
@@ -16,7 +15,6 @@
                 <p><span class="description-plant">Description:{{ plant.description }}</span></p>
             </div>
 
-            <!-- Edit/Delete buttons -->
             <div class="buttons">
                 <a href="{% url "edit plant" pk=plant.id %}" class="edit-button">Edit</a>
                 <a href="{% url "delete plant" pk=plant.id %}" class="delete-button">Delete</a>

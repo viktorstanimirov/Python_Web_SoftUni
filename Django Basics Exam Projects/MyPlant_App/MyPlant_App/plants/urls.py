@@ -1,6 +1,7 @@
 from django.urls import path
 
-from MyPlant_App.plants.views import PlantsCreateView, PlantsDetailView, PlantsUpdateView, PlantsDeleteView
+from MyPlant_App.plants.views import PlantsCreateView, PlantsDetailView, PlantsUpdateView, \
+ PlantsDeleteView
 
 urlpatterns = (
     path("create/", PlantsCreateView.as_view(), name="create plant"),

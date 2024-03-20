@@ -54,10 +54,5 @@ class PlantsDeleteForm(ReadonlyFieldsFormMixin, PlantBaseForm):
 
     def save(self, commit=True):
         if commit:
-            # self.instance.comment.delete()
-            # self.instance.likes.delete()
             self.instance.delete()
         return self.instance
-
-
-
