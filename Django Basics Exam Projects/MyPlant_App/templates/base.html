@@ -13,19 +13,16 @@
 <body>
 <div id="box">
     <header>
-        <!-- Navigation Bar -->
         <h1><a class="index-navigation" href="{% url "index" %}">MyPlants</a></h1>
         <nav>
-            
+
             {% if not profile %}
-            <!-- if the user has not created a profile -->
                 <a href="{% url "create profile" %}">Create Profile</a>
             {% else %}
-            <!-- if the user has created a profile -->
                 <a href="{% url "catalogue" %}">Catalogue</a>
                 <a href="{% url "create plant" %}">Create Plant</a>
-                <a href="#">Profile</a>
-            
+                <a href="{% url "profile details" %}">Profile</a>
+
             {% endif %}
         </nav>
     </header>
@@ -33,8 +30,6 @@
     {% block main_content %}
     {% endblock %}
 
-
-    <!-- footer -->
     <footer>
         &copy;SoftUni Team 2022. All rights reserved.
     </footer>

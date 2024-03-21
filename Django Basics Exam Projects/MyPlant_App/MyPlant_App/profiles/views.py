@@ -17,3 +17,11 @@ class CreateProfileView(view.CreateView):
     form_class = CreateProfileForm
     template_name = "profiles/create-profile.html"
     success_url = reverse_lazy("catalogue")
+
+
+class ProfileDetailView(view.DetailView):
+    model = Profile
+    template_name = "profiles/profile-details.html"
+    extra_context = {
+        "profile": get_profile(),
+    }

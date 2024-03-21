@@ -15,6 +15,3 @@ class ReadonlyFieldsFormMixin:
             return self.fields.keys()
 
         return self.readonly_fields
-
-
-
