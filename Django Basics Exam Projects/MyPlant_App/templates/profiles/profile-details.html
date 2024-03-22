@@ -1,67 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/style/style.css">
-    <title>MyPlantApp</title>
-</head>
-
-<body>
-<div id="box">
-
-    <header>
-        <!-- Navigation Bar -->
-        <h1><a class="index-navigation" href="#">MyPlants</a></h1>
-        <nav>
-            <a href="#">Catalogue</a>
-            <a href="#">Create Plant</a>
-            <a href="#">Profile</a>
-        </nav>
-    </header>
-
-    <!-- profile details section -->
+{% block main_content %}
     <section id="plant-details">
         <h1>Profile Details</h1>
         <div class="info-section">
             <div class="plant-header">
-                <!-- default profile image (if the user does NOT have any)-->
+                {% if not profile.profile_picture %}
                     <img class="plant-img" src="/static/images/default.jpg" alt='profile-image'/>
-                <!-- if the user has a profile image -->
-                    <img class="plant-img" src="" alt='profile-image'/>
-                <!-- user full name -->
-                <h1>Svetoslava Stoyanova</h1>
+                {% else %}
+                    <img class="plant-img" src="{{ profile.profile_picture }}" alt='profile-image'/>
+                {% endif %}
+                <h1>{{ profile }}</h1>
 
-                <!-- user username -->
-                <p class="description">Username: SS1234</p>
+                <p class="description">Username: {{ profile.username }}</p>
 
-                <p class="description">Total stars:</p>
-                <!-- if the user has only one plant -->
-                <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
-                <!-- if the user has two plants -->
-                <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
-                <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
-                <!-- if the user has three or more plants -->
-                <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
-                <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
-                <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
-                <!-- if the user has zero plants -->
-                <p class="description">Total stars: 0</p>
+                <p class="description">Total stars:{{ plants.count }}</p>
+                {% if plants.count == 1 %}
+                    <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
+                {% elif plants.count == 2 %}
+                    <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
+                    <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
+                {% elif plants.count >= 3 %}
+                    <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
+                    <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
+                    <img class="star-img" src="/static/images/star3.png" alt='profile-image'/>
+                {% endif %}
 
-                <!-- Edit/Delete buttons -->
                 <div class="buttons">
-                    <a href="#" class="edit-button">Edit</a>
-                    <a href="#" class="delete-button">Delete</a>
+                    <a href="{% url "edit profile" pk=profile.id %}" class="edit-button">Edit</a>
+                    <a href="{% url "delete profile" pk=profile.id %}" class="delete-button">Delete</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- footer -->
-    <footer>
-        &copy;SoftUni Team 2022. All rights reserved.
-    </footer>
-</div>
-</body>
-</html>
+{% endblock %}

@@ -13,3 +13,13 @@ class CreateProfileForm(ProfileBaseForm):
     class Meta:
         model = Profile
         exclude = ("profile_picture",)
+
+
+class UpdateProfileForm(ProfileBaseForm):
+    pass
+
+
+class DeleteProfileForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = []
