@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'MyPlant_App.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "my_plant_app_db",
-        "USER": "postgres",
-        "PASSWORD": "Nokiapower1",
-        "HOST": "127.0.0.1",
-        "PORT": "5433",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
+        "HOST": "",
+        "PORT": "",
     }
 }
 
