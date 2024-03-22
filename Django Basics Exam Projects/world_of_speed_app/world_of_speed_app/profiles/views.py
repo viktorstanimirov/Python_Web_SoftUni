@@ -18,7 +18,6 @@ def create_profile(request):
     return render(request, "profiles/profile-create.html", {'form': form})
 
 
-# ''' TODO: Check the profile full_name'''
 def profile_details(request):
     profile = Profile.objects.first()
     full_name = profile.full_name
