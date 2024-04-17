@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+      <!-- edit recipe form -->
+      <section id="create-page" class="auth">
+        <form action="{% url "edit-recipe" pk=recipe.id %}" method="post">
+          <div class="container">
+            <h1>Edit Recipe</h1>
+               {% csrf_token %}
+                {{ form.as_p }}
+            
+            <!-- edit button -->
+            <input class="btn submit" type="submit" value="Edit Recipe" />
+          </div>
+        </form>
+      </section>
+
+{% endblock %}
